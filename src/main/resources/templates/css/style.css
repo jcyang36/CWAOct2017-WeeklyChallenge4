@@ -1,4 +1,31 @@
 img{
-     width:180px;
+     width:100%;
+}
+html{
+
+     background:url(gradient.png)no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     color: white;
 }
 
+a{
+
+     color: indigo;
+}
+
+body { margin: 50px; background-color: white; }
+
+
+#container1 *{
+     padding: 5px 10px;
+}
+
+
+td{width: 30%;}
+
+td+td{width:auto;}
+
+.newclass{width:275px;}
