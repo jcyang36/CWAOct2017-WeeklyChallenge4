@@ -1,5 +1,6 @@
 img{
-     width:100%;
+     width:70%;
+     margin: 0px 0px 0px 70px;
 }
 html{
 
@@ -16,7 +17,8 @@ a{
      color: indigo;
 }
 
-body { margin: 50px; background-color: white; }
+body { margin: 50px; background-color: white;
+font-size:16px;}
 
 
 #container1 *{
@@ -28,4 +30,24 @@ td{width: 30%;}
 
 td+td{width:auto;}
 
-.newclass{width:275px;}
+.newclass{width:275px;
+
+         }
+
+td.description {vertical-align: top;
+text-align:center}
+
+i.fa.fa-linkedin {
+     font-size: 30px;
+     }
+i.fa.fa-github {
+     font-size: 30px;
+
+}
+i.fa.fa-twitter{
+     font-size: 30px;
+
+}
+
+i.glyphicon.glyphicon-envelope{font-size: 20px;}
+i.glyphicon.glyphicon-phone{font-size: 20px;}
